@@ -1,0 +1,128 @@
+PREDEV:
+	11/2
+		• Added the Main Menu
+		• Added the Controls Frame
+		• Added fade in animation for first level(c0a0)
+	11/3	
+		• Drew and added Gordon - player (front sprite and back sprite)
+		• Made progress on the train sprite
+	11/4	
+		• Started designing and arranging the first c0a0 room
+	11/5
+		• Finished with the first c0a0 room
+	11/6
+		• Drew and added the train, and added a hitbox for it
+	11/7
+		• Drew and added the forklifts
+		• Drew and arranged walls and wall corners
+		• Continued the tunnel up to the second c0a0 room
+	11/8
+		• Drew and added the vending machines, barrels and elevator door (backdrop only for now)
+		• Drew, animated and added crates
+		• Started to work on the train movement
+	11/9
+		• Drew and added angled sprites for the train
+		• Finished the train movement for c0a0
+		• Animated Gordon
+	11/10
+	11/11
+		• Animated and added the Barney event in c0a0
+	11/12
+		• Drew, animated and added Barney
+	11/13
+		• Designed and arranged the second c0a0 room
+	11/14
+		• Drew, animated and added scientist 1
+		• Started drawing scientists 2,3 and 4
+	11/17
+		• Finished drawing and animating scientists 2,3 and 4
+		• Added and implemented running animations
+		• Added sounds to: main menu, walking, barney event, train, train ride music, train lady
+		• Finished making c0a0
+		• Added two events in 2nd c0a0 room: train event and scientist event
+		• Added a level transition mechanism, and used it on c0a0-c0a0a
+		• Added and animated helicopter 
+		• Started making c0a0b (mesa texture)
+	11/18
+
+		• Did all of c0a0b besides the end gate and level transition
+	11/20
+		• Finished making c0a0b a playable level
+	11/21
+		• Started making c1a0 (map design, wall textures)
+	11/22
+		• Added the intro event in c1a0
+
+??
+the documentation ends somewhere here, when I lost access to my computer for a week
+		• c1a0
+		• Added heli scientist and barney event to c0a0b
+		• Added gate event soudns to c0a0b
+
+	12/1
+		• Added a weapon system.
+		• Added weapons: crowbar, 9mm
+		• Last tweaks: level change functionality, more sounds to c0a0b, opened the res frame
+
+
+
+
+
+
+
+// DEVELOPER NOTES
+
+este dorob tiez zvuky na barnu c0a0b
+
+
+c0a0b - noeat, emerg: helicopter, velke dvere
+c0a0c - jobs: zavory, zlty robot, vlak s nakladom
+c0a0d - haz, arrive: dalsi vlak s gmanom a scientistom, zlty robot, radioactive bleach, konec ridu
+
+
+
+global values:
+a - hp
+b - armor
+c - ammo 9mm
+d
+e - ammo magnum
+f
+g - ammo mp5
+h
+i - ammo shotgun
+j
+k - ammo crosbow
+l
+m - ammo rpg
+n
+o - ammo uranium
+p - grenades
+q - satchel
+r - tripmines
+s - snarks
+
+t - reloading (1/0)
+
+u - weaponstate (what weapons he has)
+
+v - activeweapon
+
+w - weaponcd
+
+x - level transition 1 (x)
+y - level transition 2 (y)
+y - level transition 3 (dir)
+
+weapon numbers:
+
+1 - crowbar
+2 - 9mm
+
+weaponstates:
+
+crowbar directions:
+N1 E2 S3 W4
+
+
+
